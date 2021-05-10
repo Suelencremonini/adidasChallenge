@@ -52,6 +52,7 @@ private extension ProductsViewController {
         let nib = UINib(nibName: cellIdentifier, bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: cellIdentifier)
         tableView.dataSource = self
+        tableView.delegate = self
     }
 }
 
@@ -72,6 +73,13 @@ extension ProductsViewController: UITableViewDataSource {
     }
 }
 
+extension ProductsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let product = viewModel.products?[indexPath.row] else { return }
+        viewModel.goToDetails(product)
+    }
+}
+
 extension ProductsViewController: ProductsViewModelViewDelegate {
     func productsViewModelGetProductsSuccess(_ viewModel: ProductsViewModel) {
         showLoading(false)
@@ -82,11 +90,8 @@ extension ProductsViewController: ProductsViewModelViewDelegate {
     
     func productsViewModelGetProductsFailure(_ viewModel: ProductsViewModel, error: ResponseError) {
         showLoading(false)
-        let errorMessage = "\(error.code) - " + error.message
-        let alert = UIAlertController(title: "Error", message: errorMessage, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Try again", style: .default, handler: { (action) in
+        showError(error: error) { _ in
             self.getProducts()
-        }))
-        present(alert, animated: true, completion: nil)
+        }
     }
 }

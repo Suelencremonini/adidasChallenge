@@ -12,8 +12,9 @@ struct Produt: Decodable {
     let price: Double
     let name: String
     let description: String
+    let id: String
     
     var formattedPrice: String {
-        return currency + "\(price)"
+        return price.asCurrency(symbol: currency)
     }
 }

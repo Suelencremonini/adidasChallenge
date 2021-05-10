@@ -32,6 +32,7 @@ class Service {
             completion(.failure(.other))
             return
         }
+        
         print(String(decoding: data, as: UTF8.self))
         
         guard let response = try? JSONDecoder().decode(T.self, from: data) else {

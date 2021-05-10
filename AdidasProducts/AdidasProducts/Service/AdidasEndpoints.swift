@@ -9,9 +9,8 @@ import Foundation
 
 enum AdidasEndpoints {
     case getProducts
-    case getDetails(_ id: String)
     case getReviews(_ id: String)
-    case addReview(_ id: String)
+    case addReview(_ review: Review)
 }
 
 extension AdidasEndpoints: Request {
@@ -19,10 +18,10 @@ extension AdidasEndpoints: Request {
         switch self {
         case .getProducts:
             return "product"
-        case .getDetails(let id):
-            return "product/\(id)"
-        case .getReviews(let id), .addReview(let id):
+        case .getReviews(let id):
             return "reviews/\(id)"
+        case  .addReview(let review):
+            return "reviews/\(review.productId)"
         }
     }
     
@@ -38,11 +37,10 @@ extension AdidasEndpoints: Request {
     var baseUrl: String {
         var port: String
         switch self {
-        case .getReviews, .addReview:
-            port = "3002"
-        default:
+        case .getProducts:
             port = "3001"
-        }
+        default:
+            port = "3002"        }
         
         return "http://localhost:\(port)/"
     }

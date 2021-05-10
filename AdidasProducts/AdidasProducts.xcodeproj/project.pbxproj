@@ -27,6 +27,20 @@
 		5F60553C264722FC0030041A /* AdidasService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60553B264722FC0030041A /* AdidasService.swift */; };
 		5F60555226473BC40030041A /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60555026473BC40030041A /* ProductsTableViewCell.swift */; };
 		5F60555326473BC40030041A /* ProductsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F60555126473BC40030041A /* ProductsTableViewCell.xib */; };
+		5FB129F926483CAA00F5212F /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB129F826483CAA00F5212F /* DoubleExtension.swift */; };
+		5FB12AA32648424000F5212F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12AA22648424000F5212F /* Coordinator.swift */; };
+		5FB12AA82648494700F5212F /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12AA72648494700F5212F /* DetailsCoordinator.swift */; };
+		5FB12AAE264869DB00F5212F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12AAC264869DB00F5212F /* DetailsViewController.swift */; };
+		5FB12AAF264869DB00F5212F /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB12AAD264869DB00F5212F /* DetailsViewController.xib */; };
+		5FB12AB426486A1900F5212F /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12AB326486A1900F5212F /* DetailsViewModel.swift */; };
+		5FB12AC4264876E000F5212F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12AC3264876E000F5212F /* AppCoordinator.swift */; };
+		5FB12ACC26487A5900F5212F /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12ACB26487A5900F5212F /* ViewControllerExtension.swift */; };
+		5FB12AE02648808C00F5212F /* DetailsReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12ADE2648808C00F5212F /* DetailsReviewTableViewCell.swift */; };
+		5FB12AE62648809E00F5212F /* DetailsProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12AE52648809E00F5212F /* DetailsProductView.swift */; };
+		5FB12AF0264880BE00F5212F /* DetailsProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB12AEF264880BE00F5212F /* DetailsProductView.xib */; };
+		5FB12B06264891C400F5212F /* DetailsEmptyReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12B04264891C400F5212F /* DetailsEmptyReviewsTableViewCell.swift */; };
+		5FB12B07264891C400F5212F /* DetailsEmptyReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB12B05264891C400F5212F /* DetailsEmptyReviewsTableViewCell.xib */; };
+		5FB12B372648ADB700F5212F /* DetailsReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB12B362648ADB700F5212F /* DetailsReviewTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +87,20 @@
 		5F60553B264722FC0030041A /* AdidasService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasService.swift; sourceTree = "<group>"; };
 		5F60555026473BC40030041A /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
 		5F60555126473BC40030041A /* ProductsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewCell.xib; sourceTree = "<group>"; };
+		5FB129F826483CAA00F5212F /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		5FB12AA22648424000F5212F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5FB12AA72648494700F5212F /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
+		5FB12AAC264869DB00F5212F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5FB12AAD264869DB00F5212F /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		5FB12AB326486A1900F5212F /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		5FB12AC3264876E000F5212F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5FB12ACB26487A5900F5212F /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		5FB12ADE2648808C00F5212F /* DetailsReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsReviewTableViewCell.swift; sourceTree = "<group>"; };
+		5FB12AE52648809E00F5212F /* DetailsProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductView.swift; sourceTree = "<group>"; };
+		5FB12AEF264880BE00F5212F /* DetailsProductView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsProductView.xib; sourceTree = "<group>"; };
+		5FB12B04264891C400F5212F /* DetailsEmptyReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsEmptyReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		5FB12B05264891C400F5212F /* DetailsEmptyReviewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsEmptyReviewsTableViewCell.xib; sourceTree = "<group>"; };
+		5FB12B362648ADB700F5212F /* DetailsReviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsReviewTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +151,14 @@
 		5F124965264628D60033957F /* AdidasProducts */ = {
 			isa = PBXGroup;
 			children = (
+				5FB129F726483C9A00F5212F /* Common */,
 				5F60553A264722C40030041A /* Service */,
 				5F6054CC2646FD4C0030041A /* Details */,
 				5F6054CB2646FD450030041A /* Products */,
 				5F6054CA2646FD3F0030041A /* Network */,
 				5F124966264628D60033957F /* AppDelegate.swift */,
 				5F124968264628D60033957F /* SceneDelegate.swift */,
+				5FB12AC3264876E000F5212F /* AppCoordinator.swift */,
 				5F12496F264628D70033957F /* Assets.xcassets */,
 				5F124971264628D70033957F /* LaunchScreen.storyboard */,
 				5F124974264628D70033957F /* Info.plist */,
@@ -224,6 +254,11 @@
 		5F6054D42646FDDD0030041A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5FB12AD026487E5A00F5212F /* Cell */,
+				5FB12AAC264869DB00F5212F /* DetailsViewController.swift */,
+				5FB12AAD264869DB00F5212F /* DetailsViewController.xib */,
+				5FB12AE52648809E00F5212F /* DetailsProductView.swift */,
+				5FB12AEF264880BE00F5212F /* DetailsProductView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,6 +266,7 @@
 		5F6054D52646FDE20030041A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5FB12AB326486A1900F5212F /* DetailsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -246,6 +282,7 @@
 		5F6054D72646FDEC0030041A /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				5FB12AA72648494700F5212F /* DetailsCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -264,6 +301,27 @@
 			children = (
 				5F60555026473BC40030041A /* ProductsTableViewCell.swift */,
 				5F60555126473BC40030041A /* ProductsTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5FB129F726483C9A00F5212F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5FB129F826483CAA00F5212F /* DoubleExtension.swift */,
+				5FB12AA22648424000F5212F /* Coordinator.swift */,
+				5FB12ACB26487A5900F5212F /* ViewControllerExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5FB12AD026487E5A00F5212F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5FB12ADE2648808C00F5212F /* DetailsReviewTableViewCell.swift */,
+				5FB12B362648ADB700F5212F /* DetailsReviewTableViewCell.xib */,
+				5FB12B04264891C400F5212F /* DetailsEmptyReviewsTableViewCell.swift */,
+				5FB12B05264891C400F5212F /* DetailsEmptyReviewsTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -373,6 +431,10 @@
 			files = (
 				5F124973264628D70033957F /* LaunchScreen.storyboard in Resources */,
 				5F60555326473BC40030041A /* ProductsTableViewCell.xib in Resources */,
+				5FB12B372648ADB700F5212F /* DetailsReviewTableViewCell.xib in Resources */,
+				5FB12AF0264880BE00F5212F /* DetailsProductView.xib in Resources */,
+				5FB12AAF264869DB00F5212F /* DetailsViewController.xib in Resources */,
+				5FB12B07264891C400F5212F /* DetailsEmptyReviewsTableViewCell.xib in Resources */,
 				5F124970264628D70033957F /* Assets.xcassets in Resources */,
 				5F6054DB264705950030041A /* ProductsViewController.xib in Resources */,
 			);
@@ -399,15 +461,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB12AA32648424000F5212F /* Coordinator.swift in Sources */,
+				5FB12AB426486A1900F5212F /* DetailsViewModel.swift in Sources */,
+				5FB12ACC26487A5900F5212F /* ViewControllerExtension.swift in Sources */,
+				5FB129F926483CAA00F5212F /* DoubleExtension.swift in Sources */,
 				5F6054DA264705950030041A /* ProductsViewController.swift in Sources */,
 				5F605532264717480030041A /* ProductModel.swift in Sources */,
+				5FB12AE62648809E00F5212F /* DetailsProductView.swift in Sources */,
 				5F124967264628D60033957F /* AppDelegate.swift in Sources */,
 				5F6054E3264705A70030041A /* ProductsViewModel.swift in Sources */,
+				5FB12AA82648494700F5212F /* DetailsCoordinator.swift in Sources */,
 				5F124969264628D60033957F /* SceneDelegate.swift in Sources */,
 				5F60553C264722FC0030041A /* AdidasService.swift in Sources */,
 				5F605506264714080030041A /* AdidasEndpoints.swift in Sources */,
 				5F6054E8264705B50030041A /* ProductsCoordinator.swift in Sources */,
+				5FB12AC4264876E000F5212F /* AppCoordinator.swift in Sources */,
+				5FB12AAE264869DB00F5212F /* DetailsViewController.swift in Sources */,
 				5F6054F02647068F0030041A /* Service.swift in Sources */,
+				5FB12B06264891C400F5212F /* DetailsEmptyReviewsTableViewCell.swift in Sources */,
+				5FB12AE02648808C00F5212F /* DetailsReviewTableViewCell.swift in Sources */,
 				5F60555226473BC40030041A /* ProductsTableViewCell.swift in Sources */,
 				5F6054F22647068F0030041A /* DataTask.swift in Sources */,
 				5F6054F32647068F0030041A /* Request.swift in Sources */,

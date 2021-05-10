@@ -13,7 +13,7 @@ protocol ProductsViewModelViewDelegate: AnyObject {
 }
 
 protocol ProductsViewModelCoordinatorDelegate: AnyObject {
-    func productsViewModelGoToDetails(_ viewModel: ProductsViewModel, id: String)
+    func productsViewModelGoToDetails(_ viewModel: ProductsViewModel, product: Produt)
 }
 
 class ProductsViewModel {
@@ -25,6 +25,10 @@ class ProductsViewModel {
     
     init(service: AdidasService) {
         self.service = service
+    }
+    
+    func goToDetails(_ product: Produt) {
+        coordinatorDelegate?.productsViewModelGoToDetails(self, product: product)
     }
     
     func getProducts() {

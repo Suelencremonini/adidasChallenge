@@ -10,6 +10,6 @@ import Foundation
 struct Review: Codable {
     var productId: String
     var locale: String
-    var rating: Double
+    var rating: Int
     var text: String
 }
